@@ -9,7 +9,7 @@ def solution(left, right):
             p += 1
         if p%2 == 0:
             answer += i
-        else: answer += -i
+        else: answer -= i
     return answer
 
 c = solution(left, right)
